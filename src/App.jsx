@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Signup from './components/Signup';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
+import Login from './components/login';
+import Dashboard from './components/dashboard';
 
 export default function App() {
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
